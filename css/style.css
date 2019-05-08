@@ -746,10 +746,8 @@ margin-bottom: 50px;
 .comp2 .subtitulos{
   color:#199EB8;
   border-color:#199EB8;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
-
-
 
 .comp h3{
   font-size: 30px;
@@ -771,6 +769,10 @@ font-size: 50px;
   justify-content: center;
 }
 
+.fotoProducto{
+  margin-top: 2em;
+}
+
 .colizq{
   margin-right: 35px;
   display: flex;
@@ -779,24 +781,33 @@ font-size: 50px;
   justify-content: center;
 }
 
+.tituloProducto{
+  margin: 0;
+}
 
 .colizq button {
   background-color: transparent;
-  border: none;
+  border: 2px solid black;
+  margin: 0px 10px 10px 10px;
+}
+
+.colizq button:hover {
+-webkit-box-shadow: 10px 13px 17px -4px rgba(25,158,184,1);
+-moz-box-shadow: 10px 13px 17px -4px rgba(25,158,184,1);
+box-shadow: 10px 13px 17px -4px rgba(25,158,184,1);
 }
 
 .colizq button img {
-  width: 150px;
+  width: 120px;
 }
 
 .colder{
   margin-left: 35px;
 }
 
+
 .filas{
-  margin-top: 15px;
-  margin-left: 10px;
-  box-sizing: border-box;
+  margin: 10px;
 }
 
 .ulLista{
@@ -1008,10 +1019,6 @@ margin: 0 2em 0 2em;
   padding: 2em 1em;
   position: absolute;
   top: 0;
-}
-
-img {
-  margin-bottom: -4px;
 }
 
 .caption-container {
